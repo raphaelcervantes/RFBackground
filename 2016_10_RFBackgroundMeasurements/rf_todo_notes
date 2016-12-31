@@ -1,0 +1,33 @@
+1)compare data
+all the x values are the same. y values seem to be a little different. I'm
+going to find the range. I will then plot the range as a function of x. I will
+call this comparison a consistency measurement.
+
+The spread is about 1e-3 dB
+That corresponds to 
+10*log10(high)- 10*log10(low)= 1e-3
+10*log10(high/low) = 1e-3
+high/low = 1.0002302850208247
+
+The measurement has 17 sig figs, so I don't feel bad keeping all of those
+measurements.
+
+I can just keep my uncertainties in dB and then worry about what that means in
+terms of ratios when I do error propogation. 
+I won't do relative uncertainty. I'll just do raw span in dB
+
+Why is the 0 frequency measurement in CF 3000MHz 46 dB
+
+What is up with all the jaggedness? They are consistent.
+
+There isn't this multiple run thing for the smaller bandwidth measurements.
+
+2)combine data
+
+Ok. So data is more or less consistent. Now to combine data with different
+ranges.
+
+I think I will just concatenate and bin.
+
+
+
